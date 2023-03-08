@@ -1,5 +1,101 @@
+body {
+    color: #03135b;
+    background: #F8F8F8;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Encode Sans, sans-serif;
+}
+
+nav, .download {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+nav li:not(:last-child) {
+    padding-right: 36px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+nav li a {
+    color: #03135b;
+    text-decoration: none;
+
+}
+
 #mockup {
     background-image:url("../images/mockup-orange-mobile.png");
     width: 325px;
     height: 232px;
 }
+
+#section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+}
+
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+ul img {
+    padding-right: 4px;
+}
+
+.download 
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating p {
+    padding-left: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B6BBC9;
+}
+
